@@ -1,87 +1,96 @@
-🧪 Cypress E2E Automation Tests
+# Cypress E2E Automation Tests
 
-End-to-End (E2E) automated test cases built using Cypress.io and JavaScript.
+**End-to-End (E2E) automated test cases using Cypress and JavaScript for web application workflows.**
 
-This project automates core user workflows of a web application including authentication, product interaction, cart validation, and form submissions.
+---
 
-📁 Project Structure
+## 📂 Project Structure
+
+```
 cypress/
-│
-├── e2e/          # Test specification files
-├── fixtures/     # Test data (JSON, images)
-└── support/      # Custom commands & configuration
-│
-├── cypress.config.js
-├── package.json
-└── package-lock.json
+├── e2e/            # Test specification files
+├── fixtures/       # Test data files (JSON, images)
+└── support/        # Custom commands and configuration
 
-✅ Test Coverage
+cypress.config.js   # Cypress configuration
+package.json        # Project dependencies
+package-lock.json
+```
 
-The automation suite includes:
+---
 
-👤 User Registration
+## ✅ Test Scenarios Covered
 
-🔐 Login & Logout
+* User Registration
+* Login and Logout
+* Product Page Validation
+* Category Navigation
+* Add to Cart
+* Cart Verification
+* Checkout / Order Placement
+* Contact Form Submission
+* Subscription Functionality
+* File Upload Testing
 
-🛍️ Product Page Validation
+---
 
-🗂️ Category Navigation
+## 🛠️ Technologies Used
 
-🛒 Add to Cart
+* JavaScript
+* **Cypress**
+* Node.js
+* npm
 
-🧾 Cart Verification
+---
 
-📦 Checkout / Order Placement
+## 📦 Installation
 
-📬 Contact Form Submission
+1. Clone the repository:
 
-📰 Subscription Functionality
-
-📁 File Upload Testing
-
-🛠️ Technologies
-
-JavaScript
-
-Cypress.io
-
-Node.js
-
-npm
-
-🚀 Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/your-username/your-repository-name.git
+```
 
+2. Navigate into the project folder:
 
-Navigate into the project directory:
-
+```bash
 cd cypress-prac
+```
 
+3. Install dependencies:
 
-Install dependencies:
-
+```bash
 npm install
+```
 
-▶️ Running Tests
+---
 
-Run in interactive mode:
+## ▶️ Running the Tests
 
+### Open Cypress Test Runner (Interactive Mode)
+
+```bash
 npx cypress open
+```
 
+### Run Tests in Headless Mode
 
-Run in headless mode:
-
+```bash
 npx cypress run
+```
 
-📊 Test Results
+---
 
-Screenshots are automatically captured on test failures.
+## 📸 Test Output
 
-Videos are recorded during headless execution.
+* Screenshots are generated automatically on test failures.
+* Videos are recorded when running in headless mode.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
+
+**Noureddine Zaroual**
+
 
 Your Name
