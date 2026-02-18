@@ -84,6 +84,3 @@ npx cypress run
 ## 👨‍💻 Author
 
 **Noureddine Zaroual**
-
-
-Your Name
