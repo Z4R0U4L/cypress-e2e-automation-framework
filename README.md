@@ -81,13 +81,6 @@ npx cypress run
 
 ---
 
-## 📸 Test Output
-
-* Screenshots are generated automatically on test failures.
-* Videos are recorded when running in headless mode.
-
----
-
 ## 👨‍💻 Author
 
 **Noureddine Zaroual**
