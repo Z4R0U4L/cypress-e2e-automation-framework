@@ -48,7 +48,7 @@ package-lock.json
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://Z4R0U4L/cypress-e2e-automation-framework.git
 ```
 
 2. Navigate into the project folder:
